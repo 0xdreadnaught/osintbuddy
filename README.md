@@ -37,10 +37,10 @@
 
 To start using OSINTBuddy, follow the installation steps. Maybe pray too.
 
-These notes are from the original project. They have not yet not been tested yet. If they aren't required they will be removed.
-**Note** - If you're on windows and want this project to work you need unix line endings [(context)](https://stackoverflow.com/a/13154031). Before cloning, run: `git config --global core.autocrlf false`.
+If you want to push/pull from outside a terminal like WSL/CygWin, then you'll need [these](https://stackoverflow.com/a/13154031) steps for handling line endings.
 
-**Note** - If you're running on an Apple device you will need to open your Docker app, select the `features in development` tab on the left hand side of the docker app, and enable/checkmark the `Use Rosetta for x86/64 emulation on Apple Silicon` option if you want this application to work.
+*Picture below just in case the page gets deleted.
+![image](https://github.com/user-attachments/assets/e981799a-80fa-4383-89cd-6ac40f028688)
 
 
 ## Installation
