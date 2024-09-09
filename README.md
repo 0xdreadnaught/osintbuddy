@@ -35,12 +35,12 @@
 
 ## Getting Started
 
-To start using OSINTBuddy, follow these simple installation steps:
+To start using OSINTBuddy, follow the installation steps. Maybe pray too.
 
-*Note that if you're on windows and want this project to work you need unix line endings [(context)](https://stackoverflow.com/a/13154031). Before cloning, run: `git config --global core.autocrlf false`*
+These notes are from the original project. They have not yet not been tested yet. If they aren't required they will be removed.
+**Note** - If you're on windows and want this project to work you need unix line endings [(context)](https://stackoverflow.com/a/13154031). Before cloning, run: `git config --global core.autocrlf false`.
 
-
-*Note that if you're running on an **Apple** device you will need to open your Docker app, select the **features in development** tab on the left hand side of the docker app, and enable/checkmark the `Use Rosetta for x86/64 emulation on Apple Silicon` option if you want this application to work*
+**Note** - If you're running on an Apple device you will need to open your Docker app, select the `features in development` tab on the left hand side of the docker app, and enable/checkmark the `Use Rosetta for x86/64 emulation on Apple Silicon` option if you want this application to work.
 
 
 ## Installation
@@ -66,7 +66,8 @@ To start using OSINTBuddy, follow these simple installation steps:
    ./launcher start           # start the osintbuddy app.
    # ./launcher stop          # stop the osintbuddy app.
    ```
-   - **Note:** the stack will take a few minutes to startup while Solr and ScyllaDB configure themselves for JanusGraph. If you try to connect before all the databases are ready you will encounter errors.
+   - **Note:** the stack will take a few minutes to startup while Solr and ScyllaDB configure themselves for JanusGraph.
+               If you try to connect before all the databases are ready you will encounter errors.
 
 ## Usage
 
